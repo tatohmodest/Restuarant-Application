@@ -1,0 +1,137 @@
+
+.items{
+   padding: 10px;
+ 
+    
+
+    
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color:rgba(0,0,0,0.5)
+}
+.items h1{
+  
+        font-family: "Hanalei", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 70px;
+       color:rgb(31, 30, 29);
+      
+      
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+    border: 1px solid rgb(171, 166, 166);
+    width: 220px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: start;
+    padding-left: 5px;
+  
+}
+.product:hover{
+    box-shadow: 0 1px 2px;
+    transition: width 0.3s ease;
+}
+.pic{
+  border: 1px solid rgb(225, 220, 220); 
+  width:100%;
+  margin:5px 2px 2px 5px;
+  margin-bottom: 2px;
+  height: 120px;
+}
+
+.format{
+    display:block;
+    margin-left: 5px;
+}
+.cta input[type="number"]{
+   width: 50px;
+   padding: 5px;
+   height: 3px;
+}
+.buy{
+
+}
+.rate{
+    display: flex;
+    text-align: center;
+}
+.stars{
+    transform: scale(1.5);
+    position: relative;
+    left: 30px;
+    bottom: 6px;
+}
+
+.cta button{
+    padding:7px;
+   
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:rgb(46, 245, 46);
+    color: black;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 60px;
+    
+
+}
+.cta button:hover{
+    background-color: gray;
+    transition: background-color 0.4s ease;
+    transition: transform 0.4s ease;
+    transform: scale(0.9);
+}
+.rate p{
+    position: relative;
+    bottom: 30px;
+}
+
+.format p{
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.price{
+    position: relative;
+    bottom: 40px;
+    background-color: yellow;
+    width: 80px;
+}
+.amount{
+    position: relative;
+    bottom: 74px;
+    left: 80px;
+}
+label{
+    position: relative;
+    bottom: 89px;
+    left: 125px;
+    font-weight: 800;
+    font-size: 12px;
+    color: rgb(134, 130, 130);
+}
+.alignitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgb(177, 170, 170);
+    align-items: flex-start;
+    width: 1200px;
+    height: auto;
+}
+.active{
+    margin-left: 10px;
+
+}
